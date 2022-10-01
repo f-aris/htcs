@@ -1,1 +1,3 @@
-console.log('Hello!');
+const msg ="hello";
+
+export { msg };
