@@ -9,7 +9,6 @@
       Remove all code in `styles.css`!
     -->
     <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
   </head>
   <body>
     <nav>
@@ -18,6 +17,12 @@
     </nav>
     <main>
       <h1>Home page</h1>
+
+    <script type="module">
+      import {msg} from "./script.js";
+      document.getElementById("hi").innerHTML=msg;
+    </script>
+
     </main>
   </body>
 </html>
