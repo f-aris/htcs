@@ -1,3 +1,3 @@
-const msg ="hello";
+const msg ="Hello";
 
 export { msg };
