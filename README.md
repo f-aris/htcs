@@ -1,3 +1,3 @@
 # htcs
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/htcs)
+[Edit with StackBlitz](https://stackblitz.com/)
