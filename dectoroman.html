@@ -4,6 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>dec to roman</title>
+
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
 </head>
 <body>
 <h3 style="text-align: center;">Welcome to my website</h3>
@@ -18,7 +21,7 @@ var notebook = RunKit.createNotebook({
     source: "require(\"roman-numeral\").convert(45); // replace value to convert other number"
 })</script>
 
-<script>
+<script type="text/babel">
 import * as romanNumeral from "https://cdn.skypack.dev/roman-numeral@0.2.6";
 
 var num = parseInt(prompt("num"));
