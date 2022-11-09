@@ -17,5 +17,13 @@ var notebook = RunKit.createNotebook({
     // specify the source of the notebook
     source: "require(\"roman-numeral\").convert(45); // replace value to convert other number"
 })</script>
+
+<script>
+import * as romanNumeral from "https://cdn.skypack.dev/roman-numeral@0.2.6";
+
+var num = parseInt(prompt("num"));
+
+console.log(romanNumeral.convert(num));
+</script>
 </body>
 </html>
